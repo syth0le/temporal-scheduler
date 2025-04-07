@@ -1,0 +1,7 @@
+application:
+  app: "hot-worker"
+  type: "hot"
+
+temporal:
+  enable: true
+  endpoint: "temporal:7233"

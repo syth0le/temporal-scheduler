@@ -1,0 +1,7 @@
+application:
+  app: "cold-worker"
+  type: "cold"
+
+temporal:
+  enable: true
+  endpoint: "temporal:7233"

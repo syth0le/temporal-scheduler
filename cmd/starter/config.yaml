@@ -1,0 +1,17 @@
+logger:
+  level: "debug"
+  encoding: "console"
+  path: "stdout"
+  environment: "prod"
+
+public_server:
+  enable: true
+  endpoint: "localhost"
+  port: 8888
+
+application:
+  app: "starter"
+
+temporal:
+  enable: true
+  endpoint: "localhost:8233"

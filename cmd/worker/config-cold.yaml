@@ -1,0 +1,7 @@
+application:
+  app: "cold-worker"
+  type: "cold"
+
+temporal:
+  enable: true
+  endpoint: "localhost:8233"
